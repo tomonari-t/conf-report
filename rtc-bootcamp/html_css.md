@@ -21,7 +21,6 @@ SPAが流行ったのは、ユーザー時間のうばいが原因。サーバ�
 
 - JSでレンダリングします
 
-
 ##### BFF
 
 [SSR BFFについて](https://speakerdeck.com/yosuke_furukawa/ssrfalsehua)
@@ -32,8 +31,16 @@ SPAが流行ったのは、ユーザー時間のうばいが原因。サーバ�
 
 ### Atomic Design
 
-http://bradfrost.com/blog/post/atomic-web-design/
+[atomic desigh](http://bradfrost.com/blog/post/atomic-web-design/)
 
 ### cssセレクタ
 
 詳細度によるセレクタの優先順位が混乱の元。
+
+### BEM
+
+役割や粒度ごとにルールを設けることでルール同士の衝突を避ける設計方針。
+
+- Block: 一意なわかり易い名前
+- Element：Blockを構成する要素
+- Modifier: BlockまたはElementの表示バリエーションx
